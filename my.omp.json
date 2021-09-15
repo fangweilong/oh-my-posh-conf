@@ -8,11 +8,22 @@
       "newline": true,
       "segments": [
         {
+          "type": "time",
+          "style": "powerline",
+          "foreground": "#41f356",
+          "background": "#31729e",
+          "powerline_symbol": "\uE0B0",
+          "properties": {
+            "prefix": "\ufa1a",
+            "time_format": "15:04:05"
+          }
+        },
+        {
           "type": "executiontime",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
-          "background": "#8800dd",
+          "background": "#c39bdb",
           "properties": {
             "threshold": 500,
             "style": "austin",
@@ -134,16 +145,6 @@
           "background": "#906cff",
           "properties": {
             "prefix": " \uE235 "
-          }
-        },
-        {
-          "type": "time",
-          "style": "plain",
-          "foreground": "#41f356",
-          "properties": {
-            "prefix": "\ufa1a",
-            "time_format": "15:04:05",
-            "postfix": "<#757575,>|</>"
           }
         },
         {
